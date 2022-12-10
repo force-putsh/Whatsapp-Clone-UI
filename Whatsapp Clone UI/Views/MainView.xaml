@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Whatsapp_Clone_UI.Views.MainView"
+            xmlns:Pages="clr-namespace:Whatsapp_Clone_UI.Views"
+            BarBackgroundColor="Green"
+            BarTextColor="White">
+    <NavigationPage.TitleView>
+        <Grid BackgroundColor="Gray">
+            <Label Text="Whatsapp"
+                   FontSize="Title"
+                   VerticalOptions="Center"
+                   TextColor="White"
+                   FontAttributes="Bold"/>
+            <ImageButton Source="search.png"/>
+        </Grid>
+    </NavigationPage.TitleView>
+    <Pages:DiscutionView IconImageSource="group.png" Title=""/>
+    <Pages:DiscutionView Title="Disc."/>
+    <Pages:StatutView Title="Statut"/>
+    <Pages:CallView Title="Appel"/>
+
+
+</TabbedPage>
