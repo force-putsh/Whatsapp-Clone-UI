@@ -5,7 +5,7 @@
              Title="DiscutionView">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Discution"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>

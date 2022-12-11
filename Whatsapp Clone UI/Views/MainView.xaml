@@ -4,19 +4,22 @@
              x:Class="Whatsapp_Clone_UI.Views.MainView"
             xmlns:Pages="clr-namespace:Whatsapp_Clone_UI.Views"
             BarBackgroundColor="Green"
-            BarTextColor="White">
+            BarTextColor="White"
+            SelectedItem="{x:Reference Discution}">
     <NavigationPage.TitleView>
-        <Grid BackgroundColor="Gray">
+        <Grid ColumnDefinitions="*,150">
             <Label Text="Whatsapp"
                    FontSize="Title"
                    VerticalOptions="Center"
                    TextColor="White"
                    FontAttributes="Bold"/>
-            <ImageButton Source="search.png"/>
+            <ImageButton Source="camera.png" Grid.Column="1" HeightRequest="35" WidthRequest="35" HorizontalOptions="Start" />
+            <ImageButton Source="search.png" Grid.Column="1" HeightRequest="35" WidthRequest="35" HorizontalOptions="Center" />
+            <ImageButton Source="more.png" Grid.Column="1" HeightRequest="35" WidthRequest="35" HorizontalOptions="End"/>
         </Grid>
     </NavigationPage.TitleView>
     <Pages:DiscutionView IconImageSource="group.png" Title=""/>
-    <Pages:DiscutionView Title="Disc."/>
+    <Pages:DiscutionView Title="Disc." x:Name="Discution"/>
     <Pages:StatutView Title="Statut"/>
     <Pages:CallView Title="Appel"/>
 
