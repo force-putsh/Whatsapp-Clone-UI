@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whatsapp Clone UI", "Whatsapp Clone UI\Whatsapp Clone UI.csproj", "{924BB514-4C6D-46D9-8AD3-3433832C8373}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsappLib", "WhatsappLib\WhatsappLib.csproj", "{FB052BE3-8725-474C-A00D-9C4201E21535}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{924BB514-4C6D-46D9-8AD3-3433832C8373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{924BB514-4C6D-46D9-8AD3-3433832C8373}.Release|Any CPU.Build.0 = Release|Any CPU
 		{924BB514-4C6D-46D9-8AD3-3433832C8373}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FB052BE3-8725-474C-A00D-9C4201E21535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB052BE3-8725-474C-A00D-9C4201E21535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB052BE3-8725-474C-A00D-9C4201E21535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB052BE3-8725-474C-A00D-9C4201E21535}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
