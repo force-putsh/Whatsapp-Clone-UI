@@ -8,6 +8,11 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new NavigationPage(new MainView());
+		//MainPage = new NavigationPage(new MainView());
 	}
+
+    protected override Window CreateWindow(IActivationState activationState)
+    {
+		return new Window(new NavigationPage(new MainView()));
+    }
 }
